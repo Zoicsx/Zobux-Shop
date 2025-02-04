@@ -1,2 +1,1 @@
-# Zobux-Shop
-anjay bat gw cok
+# Zobux Shop
