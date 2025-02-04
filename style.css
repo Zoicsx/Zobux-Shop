@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(77, 13, 13);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header1 {
+    background-color: rgb(255, 34, 34);
+    padding-right: 3rem;
+    padding-left: 1.5rem;
+    padding-top: 0.001rem;
+    margin: 0;
+    border-radius: 0.5rem;
+    color: white;
+ 
+    display: flex;
+}
+
+.header1 h1 {
+    text-shadow: 4px 5px rgb(105, 0, 0);
+    font-size: 4rem;
+}
+
+.header1 h2 {
+    text-shadow: 2px 3px rgb(105, 0, 0);
+}
+
+.boxcard {
+    background-color: rgb(236, 76, 27);
+    opacity: 1;
+    padding: 1rem; /* Adjusted padding */
+    margin: 1rem;
+    width: 30rem; /* Fixed width */
+    max-width: 100%; /* Makes it responsive */
+    height: auto; /* Allow height to adjust based on content */
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem rgb(27, 0, 0);
+    border: 2.5px solid rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image:url("Untitled\ design.png");
+    transition:  ease-out 0.3s;;
+}
+.boxcard img {
+    max-width: 100%; /* Ensures the image does not exceed the width of the boxcard */
+    height: auto; /* Maintains the aspect ratio of the image */
+    border-radius: 0.5rem; /* Optional: gives the image rounded corners */
+    box-shadow: 3px 5px rgb(236, 76, 27);
+   
+}
+.tombol {
+    text-decoration: none;
+    cursor: default;
+    width:fit-content;
+    padding: 0.5%;
+    padding-right: 1%;
+    padding-left: 1%;
+    background-color: rgb(223, 108, 80);
+    color: rgb(0, 0, 0);
+    height: fit-content;
+    border:0;
+    box-shadow: 3px 5px  rgb(27, 0, 0) ;
+    border-radius: 1rem;
+    transition: all ease-in-out 0.15s;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+.tombol:hover{
+    scale:calc(1.04);
+    background-color: rgb(172, 27, 27);
+    color: rgb(255,255,255);
+    border-radius: 0.25rem;
+}
+.tombol:active{
+    background-color: rgb(0, 0, 0);
+    scale:calc(0.98);
+}
+.boxcard:hover{
+    filter:sepia(1)
+}
+.main {
+    color:white ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;  
+    background-color:brown;
+    padding:1rem;
+    border-radius:  0.5rem;
+    display: flex;
+}
+.right-text-main {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.hobi{
+    padding: 1rem;
+    background-color: brown;
+    margin:1rem;
+    border-radius: 0.5rem;
+    color:white ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hobibox {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.hobibox img{
+    width: 24rem;
+    margin:1rem;
+    border-radius: 0.2rem;
+}
+.produk{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    margin: 1rem;
+    flex-direction: row;
+    border: solid 1px rgb(255, 244, 144);
+}
+.box-produk{
+    background-color: rgb(1, 8, 0);
+    margin: 1rem;
+    width: 10rem;
+    padding:1rem;
+    display: block;
+    border-radius: 0.5rem;
+    border: solid 1px white;
+    text-align: center;
+    color: rgb(148, 255, 87);
+}
+.box-produk#robux249{
+    background-color: rgb(2, 20, 0);
+}
+.box-produk#robux799{
+    background-color: rgb(4, 36, 0);
+}
+.box-produk#robux1249{
+    background-color: rgb(9, 78, 0);
+}
+.box-produk#robux1669{
+    background-color: rgb(10, 88, 0);
+    color: rgb(160, 255, 104);
+}
+.box-produk#robux2229{
+    background-color: rgb(13, 116, 0);
+    color: rgb(168, 255, 118);
+}
+.box-produk img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.beli{
+    text-decoration: none;
+    background-color: rgb(72, 255, 72);
+    padding:0.5rem ;
+    font-weight: bolder;
+    border-radius: 0.2rem;
+    color: rgb(24, 141, 0);
+    cursor: default;
+    transition: ease-in-out 0.2s;
+
+}
+.beli:hover{
+    background-color:rgb(171, 255, 171) ;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(128, 38, 38);
+    padding:1px;
+    border-radius: 0.2rem;  
+    cursor: default;    
+    font-size: 1.2rem;
+}
+.zobux{
+    color: white;
+    text-align: center  ;
+}
